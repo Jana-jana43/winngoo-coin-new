@@ -1,0 +1,118 @@
+i.form-i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.two-icon-sec .form-control-icon {
+    padding-left: calc(.9rem * 3);
+    position: relative;
+}
+#auth-particles .bg-overlay {
+    background: linear-gradient(to right, var(--vz-primary-text-emphasis), var(--vz-primary));
+    opacity: .9;
+}
+:is([data-layout=vertical],[data-layout=semibox])[data-sidebar-user-show] #page-topbar .topbar-user {
+    display: flex;
+}
+:is([data-layout=vertical],[data-layout=semibox])[data-sidebar-size=sm] .navbar-brand-box {
+    padding: 0 0 0 20px;
+}
+table.user-manage-table thead tr th {
+    text-align: center;
+}
+.status-badge {
+    cursor: pointer;
+}
+table#fixed-header tr th, table#manageRole tr th, table#manageUser tr th, table#manageTeam tr th {
+    text-align: center;
+}
+button.note-btn.btn.btn-outline-secondary.btn-sm {
+    color: #212529 !important;
+}
+.note-editor .note-toolbar .note-color .dropdown-toggle, .note-popover .popover-content .note-color .dropdown-toggle {
+    padding-left: 0px;
+}
+h5.faq-ques, p.faq-ans {
+    margin-bottom: 0px;
+}
+p.faq-ans {
+    white-space: break-spaces;
+}
+button#togglePassword, button#toggleConfirmPassword, button#togglePasswordAdd, button#toggleConfirmPasswordAdd {
+    border-color: #ced4da;
+}
+i#togglePasswordIcon, i#toggleConfirmPasswordIcon, i#togglePasswordIconAdd, i#toggleConfirmPasswordIconAdd {
+    color: #5e6164;
+}
+button#togglePassword:hover, button#toggleConfirmPassword:hover, button#togglePasswordAdd:hover, button#toggleConfirmPasswordAdd:hover {
+    background: #ced4da;
+}
+.form-select:focus {
+    box-shadow: none;
+}
+.icon-mail-sent span {
+    background: #daf4f0;
+    color: #3cd188;
+    font-size: 100px;
+    padding: 20px;
+    border-radius: 100px;
+}
+.w100 {
+    width: 100px;
+}
+.avatar-10rm {
+    height: 10rem;
+    width: 10rem;
+}
+#chartTabs a.nav-link.active {
+    border-radius: 100px;
+    background: #e0f3f4;
+    border: none;
+}
+#chartTabs a.nav-link {
+    padding: 0px 10px;
+    font-size: 13px;
+}
+ul#chartTabs {
+    border-bottom: 0px;
+}
+ul#chartTabs a.nav-link:hover {
+    border-bottom: none;
+}
+canvas#totalUsersChart, canvas#coinUsageChart {
+    width: 100%;
+    height: 350px !important;
+}
+canvas#countryUsersChart, canvas#activityChart {
+    width: 100%;
+    height: 250px !important;    
+}
+#yearSelect, #yearSelectCoin {
+    border-radius: 6px;
+}
+select#yearSelect:focus-visible, select#yearSelectCoin:focus-visible {
+    outline: none;
+}
+#chartTabs a.nav-link:focus {
+    border-bottom: none;
+}
+.break-spaces {
+    white-space: break-spaces;
+}
+.select2-container--open .select2-dropdown--below {
+    border: 1px solid #ced4da;
+}
+
+/* -------------------------------------------- */
+@media (max-width: 767.98px) {
+    :is([data-layout=vertical],[data-layout=semibox]) .navbar-brand-box {
+        display: block;
+    }
+}

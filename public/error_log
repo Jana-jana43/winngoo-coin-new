@@ -1,0 +1,3 @@
+[11-Mar-2026 05:48:50 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\RegisterController::verifyEmail() in /home/fe56dcywne6z/public_html/winngoocoin.wimbgo.com/app/Http/Controllers/Api/RegisterController.php on line 386
+[27-Mar-2026 12:58:27 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Artisan as Artisan because the name is already in use in /home/fe56dcywne6z/public_html/winngoocoin.wimbgo.com/routes/web.php on line 16
+[27-Mar-2026 12:58:41 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Artisan as Artisan because the name is already in use in /home/fe56dcywne6z/public_html/winngoocoin.wimbgo.com/routes/web.php on line 16
