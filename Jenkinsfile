@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Jana-jana43/winngoo-coin-new.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 sh 'docker build --no-cache -t coin-project .'
